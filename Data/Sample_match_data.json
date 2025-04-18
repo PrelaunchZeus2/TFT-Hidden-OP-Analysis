@@ -1,0 +1,1548 @@
+[
+    {
+        "metadata": {
+            "data_version": "6",
+            "match_id": "NA1_5228329632",
+            "participants": [
+                "VzxSdfcb-uibsCkEegn3krcJOROCuddDjQaz695eQSyI-HEiRIdiFe3NL6cEXR5vE8me23MlLzVFAA",
+                "gsuWa2_JAt9uGGdHOKukBoEbyINt0DkHis6huNoK23Dz4aMJs5YwIsWGhFBMSs_IxBP3PRNEakgaOA",
+                "WzXY68F85X2U9-zJROIBzJapw-lGk0vO0bQbdZHNW9F_w2DIcRMXuiJXBCbXY-1iSWKkVMUvdZTFXw",
+                "PyYp0G1nAFMzehi8q5__e2aOQI8g7nIAv0L8QakEsWqymIFQlO1u67ktL0UbqzxnGAEahCZLc1RoDw",
+                "mzX8hhz_rl3gWXZzmg9gnOp6N6Fl3_I1WUtq_heeEpbP1RE7gbRcL92QjyrpXdF6lBObVVYzH2mxRg",
+                "iPGK0EBoxJnKF8jf3CD934Jgc0t5aw6gkbLkMxiI9_tpbdJALb7SOLpay11LBdo9Iaeq0oJn5OdnKg",
+                "zFV662s0sKxQ_vy1ItsTNKV3vl-iFUo92BUFaG18EPGy57qVZaQrmnCYl7a5Sd-CS1ghhIdLPYQ1dw",
+                "Ejvo-XdGUKH0NfNkilgeivTcCdM5hbi5KT3pckBLfWTc4eFbe-pUGaJ-jeWyO3tb0ILR0kj3B3qG7w"
+            ]
+        },
+        "info": {
+            "endOfGameResult": "GameComplete",
+            "gameCreation": 1739418685000,
+            "gameId": 5228329632,
+            "game_datetime": 1739421089582,
+            "game_length": 2310.528564453125,
+            "game_version": "Linux Version 15.3.656.4086 (Feb 11 2025/12:20:25) [PUBLIC] <Releases/15.3>",
+            "mapId": 22,
+            "participants": [
+                {
+                    "companion": {
+                        "content_ID": "9d5a36bd-62cd-42c2-82d9-3437b7e65a4d",
+                        "item_ID": 4009,
+                        "skin_ID": 9,
+                        "species": "PetMiner"
+                    },
+                    "gold_left": 1,
+                    "last_round": 30,
+                    "level": 8,
+                    "missions": {
+                        "PlayerScore2": 95
+                    },
+                    "partner_group_id": 1,
+                    "placement": 8,
+                    "players_eliminated": 0,
+                    "puuid": "VzxSdfcb-uibsCkEegn3krcJOROCuddDjQaz695eQSyI-HEiRIdiFe3NL6cEXR5vE8me23MlLzVFAA",
+                    "riotIdGameName": "Urial",
+                    "riotIdTagline": "Urial",
+                    "time_eliminated": 1892.6690673828125,
+                    "total_damage_to_players": 43,
+                    "traits": [
+                        {
+                            "name": "TFT13_Ambusher",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Bruiser",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Challenger",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Hextech",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Hoverboard",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Pugilist",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Scrap",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Sniper",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Squad",
+                            "num_units": 8,
+                            "style": 4,
+                            "tier_current": 4,
+                            "tier_total": 5
+                        },
+                        {
+                            "name": "TFT13_Titan",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        }
+                    ],
+                    "units": [
+                        {
+                            "character_id": "TFT13_Fish",
+                            "itemNames": [
+                                "TFT_Item_SpectralGauntlet",
+                                "TFT_Item_FrozenHeart"
+                            ],
+                            "name": "",
+                            "rarity": 0,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Nocturne",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Camille",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Beardy",
+                            "itemNames": [
+                                "TFT_Item_Redemption",
+                                "TFT_Item_GargoyleStoneplate",
+                                "TFT_Item_BrambleVest"
+                            ],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_TwistedFate",
+                            "itemNames": [
+                                "TFT_Item_JeweledGauntlet"
+                            ],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Ekko",
+                            "itemNames": [
+                                "TFT13_Item_SquadEmblemItem"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 1
+                        },
+                        {
+                            "character_id": "TFT13_Vi",
+                            "itemNames": [
+                                "TFT4_Item_OrnnDeathsDefiance",
+                                "TFT_Item_Bloodthirster",
+                                "TFT_Item_Artifact_SuspiciousTrenchCoat"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Caitlyn",
+                            "itemNames": [
+                                "TFT_Item_GuinsoosRageblade",
+                                "TFT_Item_InfinityEdge",
+                                "TFT_Item_SpearOfShojin"
+                            ],
+                            "name": "",
+                            "rarity": 6,
+                            "tier": 1
+                        }
+                    ],
+                    "win": false
+                },
+                {
+                    "companion": {
+                        "content_ID": "9d5a36bd-62cd-42c2-82d9-3437b7e65a4d",
+                        "item_ID": 4009,
+                        "skin_ID": 9,
+                        "species": "PetMiner"
+                    },
+                    "gold_left": 1,
+                    "last_round": 30,
+                    "level": 8,
+                    "missions": {
+                        "PlayerScore2": 95
+                    },
+                    "partner_group_id": 1,
+                    "placement": 7,
+                    "players_eliminated": 0,
+                    "puuid": "gsuWa2_JAt9uGGdHOKukBoEbyINt0DkHis6huNoK23Dz4aMJs5YwIsWGhFBMSs_IxBP3PRNEakgaOA",
+                    "riotIdGameName": "Something Sticky",
+                    "riotIdTagline": "CLOWN",
+                    "time_eliminated": 1889.0357666015625,
+                    "total_damage_to_players": 30,
+                    "traits": [
+                        {
+                            "name": "TFT13_Bruiser",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Cabal",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Experiment",
+                            "num_units": 5,
+                            "style": 4,
+                            "tier_current": 2,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_FormSwapper",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 2
+                        },
+                        {
+                            "name": "TFT13_Hoverboard",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Infused",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Invoker",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Martialist",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Pugilist",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Sniper",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Sorcerer",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        }
+                    ],
+                    "units": [
+                        {
+                            "character_id": "TFT13_Zyra",
+                            "itemNames": [
+                                "TFT_Item_EternalFlame",
+                                "TFT_Item_MadredsBloodrazor",
+                                "TFT_Item_RecurveBow"
+                            ],
+                            "name": "",
+                            "rarity": 0,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Urgot",
+                            "itemNames": [
+                                "TFT_Item_Redemption",
+                                "TFT_Item_TitansResolve"
+                            ],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Zeri",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_NunuWillump",
+                            "itemNames": [
+                                "TFT_Item_Artifact_InnervatingLocket",
+                                "TFT_Item_SpectralGauntlet",
+                                "TFT_Item_DragonsClaw"
+                            ],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Elise",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 1
+                        },
+                        {
+                            "character_id": "TFT13_DrMundo",
+                            "itemNames": [
+                                "TFT_Item_Artifact_InnervatingLocket",
+                                "TFT_Item_BrambleVest",
+                                "TFT_Item_DragonsClaw"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Twitch",
+                            "itemNames": [
+                                "TFT_Item_GuinsoosRageblade",
+                                "TFT_Item_RapidFireCannon",
+                                "TFT_Item_InfinityEdge"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Twitch",
+                            "itemNames": [
+                                "TFT_Item_GuinsoosRageblade",
+                                "TFT_Item_GuinsoosRageblade",
+                                "TFT_Item_InfinityEdge"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 1
+                        }
+                    ],
+                    "win": false
+                },
+                {
+                    "companion": {
+                        "content_ID": "12ec1188-b90a-48a9-b976-2430e218d35a",
+                        "item_ID": 75003,
+                        "skin_ID": 3,
+                        "species": "PetChibiSett"
+                    },
+                    "gold_left": 11,
+                    "last_round": 31,
+                    "level": 8,
+                    "missions": {
+                        "PlayerScore2": 98
+                    },
+                    "partner_group_id": 2,
+                    "placement": 5,
+                    "players_eliminated": 0,
+                    "puuid": "WzXY68F85X2U9-zJROIBzJapw-lGk0vO0bQbdZHNW9F_w2DIcRMXuiJXBCbXY-1iSWKkVMUvdZTFXw",
+                    "riotIdGameName": "1mmortal",
+                    "riotIdTagline": "NA1",
+                    "time_eliminated": 1977.2132568359375,
+                    "total_damage_to_players": 62,
+                    "traits": [
+                        {
+                            "name": "TFT13_Ambassador",
+                            "num_units": 1,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 2
+                        },
+                        {
+                            "name": "TFT13_Challenger",
+                            "num_units": 3,
+                            "style": 2,
+                            "tier_current": 2,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Invoker",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_JunkerKing",
+                            "num_units": 1,
+                            "style": 3,
+                            "tier_current": 1,
+                            "tier_total": 1
+                        },
+                        {
+                            "name": "TFT13_Rebel",
+                            "num_units": 4,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Scrap",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Sorcerer",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Squad",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 5
+                        },
+                        {
+                            "name": "TFT13_Titan",
+                            "num_units": 6,
+                            "style": 4,
+                            "tier_current": 3,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Warband",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 4
+                        }
+                    ],
+                    "units": [
+                        {
+                            "character_id": "TFT13_Irelia",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 0,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Rell",
+                            "itemNames": [
+                                "TFT_Item_TacticiansRing"
+                            ],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Akali",
+                            "itemNames": [
+                                "TFT_Item_HextechGunblade",
+                                "TFT_Item_Artifact_LudensTempest"
+                            ],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Beardy",
+                            "itemNames": [
+                                "TFT_Item_IonicSpark",
+                                "TFT_Item_RedBuff",
+                                "TFT_Item_GiantsBelt"
+                            ],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_TwistedFate",
+                            "itemNames": [
+                                "TFT_Item_ArchangelsStaff",
+                                "TFT_Item_SpearOfShojin",
+                                "TFT_Item_RabadonsDeathcap"
+                            ],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Ambessa",
+                            "itemNames": [
+                                "TFT13_Item_TitanEmblemItem",
+                                "TFT_Item_Bloodthirster",
+                                "TFT_Item_RecurveBow"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Illaoi",
+                            "itemNames": [
+                                "TFT_Item_Artifact_TalismanOfAscension",
+                                "TFT_Item_BrambleVest"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Illaoi",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 1
+                        },
+                        {
+                            "character_id": "TFT13_Zoe",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 1
+                        },
+                        {
+                            "character_id": "TFT13_Rumble",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 6,
+                            "tier": 1
+                        }
+                    ],
+                    "win": false
+                },
+                {
+                    "companion": {
+                        "content_ID": "5d7b4ce2-821d-426c-abdf-88f7a19e99d8",
+                        "item_ID": 97001,
+                        "skin_ID": 1,
+                        "species": "PetChickenEggTart"
+                    },
+                    "gold_left": 2,
+                    "last_round": 31,
+                    "level": 8,
+                    "missions": {
+                        "PlayerScore2": 98
+                    },
+                    "partner_group_id": 2,
+                    "placement": 6,
+                    "players_eliminated": 0,
+                    "puuid": "PyYp0G1nAFMzehi8q5__e2aOQI8g7nIAv0L8QakEsWqymIFQlO1u67ktL0UbqzxnGAEahCZLc1RoDw",
+                    "riotIdGameName": "The H\u00f5ly Quail",
+                    "riotIdTagline": "NA1",
+                    "time_eliminated": 1971.44970703125,
+                    "total_damage_to_players": 21,
+                    "traits": [
+                        {
+                            "name": "TFT13_Academy",
+                            "num_units": 3,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Ambusher",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Bruiser",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Family",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_FormSwapper",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 2
+                        },
+                        {
+                            "name": "TFT13_Hoverboard",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Invoker",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Martialist",
+                            "num_units": 3,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Pugilist",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Rebel",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Scrap",
+                            "num_units": 6,
+                            "style": 4,
+                            "tier_current": 3,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Teamup_Geniuses",
+                            "num_units": 2,
+                            "style": 3,
+                            "tier_current": 1,
+                            "tier_total": 1
+                        },
+                        {
+                            "name": "TFT13_Titan",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        }
+                    ],
+                    "units": [
+                        {
+                            "character_id": "TFT13_Blue",
+                            "itemNames": [
+                                "TFT_Item_RecurveBow"
+                            ],
+                            "name": "",
+                            "rarity": 0,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Trundle",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 0,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Leona",
+                            "itemNames": [
+                                "TFT_Item_NightHarvester",
+                                "TFT_Item_WarmogsArmor",
+                                "TFT_Item_GargoyleStoneplate"
+                            ],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Ezreal",
+                            "itemNames": [
+                                "TFT_Item_InfinityEdge",
+                                "TFT_Item_BlueBuff",
+                                "TFT_Item_GuinsoosRageblade"
+                            ],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Gangplank",
+                            "itemNames": [
+                                "TFT_Item_GuinsoosRageblade",
+                                "TFT_Item_SparringGloves"
+                            ],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Heimerdinger",
+                            "itemNames": [
+                                "TFT_Item_SpearOfShojin"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Ekko",
+                            "itemNames": [
+                                "TFT_Item_JeweledGauntlet",
+                                "TFT4_Item_OrnnZhonyasParadox",
+                                "TFT_Item_ChainVest"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Corki",
+                            "itemNames": [
+                                "TFT_Item_SpearOfShojin",
+                                "TFT_Item_GuinsoosRageblade",
+                                "TFT_Item_ChainVest"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        }
+                    ],
+                    "win": false
+                },
+                {
+                    "companion": {
+                        "content_ID": "c4b96b47-3879-498f-a397-dc1e180c8a0c",
+                        "item_ID": 25042,
+                        "skin_ID": 42,
+                        "species": "PetAoShin"
+                    },
+                    "gold_left": 0,
+                    "last_round": 37,
+                    "level": 8,
+                    "missions": {
+                        "PlayerScore2": 230
+                    },
+                    "partner_group_id": 3,
+                    "placement": 4,
+                    "players_eliminated": 1,
+                    "puuid": "mzX8hhz_rl3gWXZzmg9gnOp6N6Fl3_I1WUtq_heeEpbP1RE7gbRcL92QjyrpXdF6lBObVVYzH2mxRg",
+                    "riotIdGameName": "Fate Decided",
+                    "riotIdTagline": "NA1",
+                    "time_eliminated": 2300.364501953125,
+                    "total_damage_to_players": 66,
+                    "traits": [
+                        {
+                            "name": "TFT13_Academy",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Cabal",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Crime",
+                            "num_units": 2,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Invoker",
+                            "num_units": 4,
+                            "style": 2,
+                            "tier_current": 2,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_MachineHerald",
+                            "num_units": 1,
+                            "style": 3,
+                            "tier_current": 1,
+                            "tier_total": 1
+                        },
+                        {
+                            "name": "TFT13_Rebel",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Squad",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 5
+                        },
+                        {
+                            "name": "TFT13_Titan",
+                            "num_units": 4,
+                            "style": 2,
+                            "tier_current": 2,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Warband",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        }
+                    ],
+                    "units": [
+                        {
+                            "character_id": "TFT13_Morgana",
+                            "itemNames": [
+                                "TFT_Item_RunaansHurricane",
+                                "TFT_Item_Morellonomicon",
+                                "TFT4_Item_OrnnMuramana"
+                            ],
+                            "name": "",
+                            "rarity": 0,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Singed",
+                            "itemNames": [
+                                "TFT_Item_GargoyleStoneplate",
+                                "TFT_Item_GargoyleStoneplate",
+                                "TFT_Item_IonicSpark"
+                            ],
+                            "name": "",
+                            "rarity": 0,
+                            "tier": 3
+                        },
+                        {
+                            "character_id": "TFT13_Irelia",
+                            "itemNames": [
+                                "TFT_Item_Bloodthirster",
+                                "TFT_Item_DragonsClaw",
+                                "TFT_Item_GiantsBelt"
+                            ],
+                            "name": "",
+                            "rarity": 0,
+                            "tier": 3
+                        },
+                        {
+                            "character_id": "TFT13_Rell",
+                            "itemNames": [
+                                "TFT_Item_AdaptiveHelm"
+                            ],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_RenataGlasc",
+                            "itemNames": [
+                                "TFT_Item_ArchangelsStaff",
+                                "TFT_Item_Leviathan",
+                                "TFT_Item_SpearOfShojin"
+                            ],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 3
+                        },
+                        {
+                            "character_id": "TFT13_Beardy",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Heimerdinger",
+                            "itemNames": [
+                                "TFT4_Item_OrnnMuramana",
+                                "TFT_Item_ArchangelsStaff",
+                                "TFT_Item_MadredsBloodrazor"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Viktor",
+                            "itemNames": [
+                                "TFT_Item_PowerGauntlet"
+                            ],
+                            "name": "",
+                            "rarity": 8,
+                            "tier": 1
+                        }
+                    ],
+                    "win": true
+                },
+                {
+                    "companion": {
+                        "content_ID": "9a47370e-768c-49e2-9b45-7ba09527f910",
+                        "item_ID": 84001,
+                        "skin_ID": 1,
+                        "species": "PetChibiMissFortune"
+                    },
+                    "gold_left": 2,
+                    "last_round": 37,
+                    "level": 8,
+                    "missions": {
+                        "PlayerScore2": 230
+                    },
+                    "partner_group_id": 3,
+                    "placement": 3,
+                    "players_eliminated": 4,
+                    "puuid": "iPGK0EBoxJnKF8jf3CD934Jgc0t5aw6gkbLkMxiI9_tpbdJALb7SOLpay11LBdo9Iaeq0oJn5OdnKg",
+                    "riotIdGameName": "LessyTheUnicorn",
+                    "riotIdTagline": "NA1",
+                    "time_eliminated": 2302.3173828125,
+                    "total_damage_to_players": 82,
+                    "traits": [
+                        {
+                            "name": "TFT13_Academy",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Ambassador",
+                            "num_units": 1,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 2
+                        },
+                        {
+                            "name": "TFT13_BloodHunter",
+                            "num_units": 1,
+                            "style": 3,
+                            "tier_current": 1,
+                            "tier_total": 1
+                        },
+                        {
+                            "name": "TFT13_Bruiser",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Experiment",
+                            "num_units": 5,
+                            "style": 4,
+                            "tier_current": 2,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Infused",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Invoker",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Martialist",
+                            "num_units": 6,
+                            "style": 4,
+                            "tier_current": 3,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Pugilist",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Rebel",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Scrap",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Sniper",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Warband",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        }
+                    ],
+                    "units": [
+                        {
+                            "character_id": "TFT13_Tristana",
+                            "itemNames": [
+                                "TFT_Item_RunaansHurricane",
+                                "TFT_Item_JeweledGauntlet"
+                            ],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Urgot",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Ezreal",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_NunuWillump",
+                            "itemNames": [
+                                "TFT_Item_GargoyleStoneplate",
+                                "TFT_Item_Spatula"
+                            ],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_DrMundo",
+                            "itemNames": [
+                                "TFT_Item_GargoyleStoneplate",
+                                "TFT_Item_Crownguard",
+                                "TFT_Item_RedBuff"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Twitch",
+                            "itemNames": [
+                                "TFT13_Item_DemolitionistEmblemItem",
+                                "TFT_Item_GuinsoosRageblade",
+                                "TFT_Item_Deathblade"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Corki",
+                            "itemNames": [
+                                "TFT_Item_Artifact_SeekersArmguard",
+                                "TFT_Item_LastWhisper",
+                                "TFT_Item_InfinityEdge"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Mordekaiser",
+                            "itemNames": [
+                                "TFT4_Item_OrnnInfinityForce",
+                                "TFT_Item_JeweledGauntlet",
+                                "TFT_Item_TacticiansRing"
+                            ],
+                            "name": "",
+                            "rarity": 6,
+                            "tier": 1
+                        },
+                        {
+                            "character_id": "TFT13_Warwick",
+                            "itemNames": [
+                                "TFT4_Item_OrnnDeathsDefiance",
+                                "TFT13_Item_DemolitionistEmblemItem",
+                                "TFT_Item_Bloodthirster"
+                            ],
+                            "name": "",
+                            "rarity": 8,
+                            "tier": 2
+                        }
+                    ],
+                    "win": true
+                },
+                {
+                    "companion": {
+                        "content_ID": "53641cd9-09ea-444d-8876-35b08a93c244",
+                        "item_ID": 4021,
+                        "skin_ID": 21,
+                        "species": "PetMiner"
+                    },
+                    "gold_left": 2,
+                    "last_round": 37,
+                    "level": 8,
+                    "missions": {
+                        "PlayerScore2": 230
+                    },
+                    "partner_group_id": 4,
+                    "placement": 2,
+                    "players_eliminated": 4,
+                    "puuid": "zFV662s0sKxQ_vy1ItsTNKV3vl-iFUo92BUFaG18EPGy57qVZaQrmnCYl7a5Sd-CS1ghhIdLPYQ1dw",
+                    "riotIdGameName": "LunaLush",
+                    "riotIdTagline": "Heyyy",
+                    "time_eliminated": 2302.3173828125,
+                    "total_damage_to_players": 92,
+                    "traits": [
+                        {
+                            "name": "TFT13_Ambassador",
+                            "num_units": 1,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 2
+                        },
+                        {
+                            "name": "TFT13_Bruiser",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Cabal",
+                            "num_units": 5,
+                            "style": 4,
+                            "tier_current": 3,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Crime",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Experiment",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_FormSwapper",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 2
+                        },
+                        {
+                            "name": "TFT13_Infused",
+                            "num_units": 4,
+                            "style": 2,
+                            "tier_current": 2,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_MachineHerald",
+                            "num_units": 1,
+                            "style": 3,
+                            "tier_current": 1,
+                            "tier_total": 1
+                        },
+                        {
+                            "name": "TFT13_Sorcerer",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Warband",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Watcher",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        }
+                    ],
+                    "units": [
+                        {
+                            "character_id": "TFT13_Vladimir",
+                            "itemNames": [
+                                "TFT_Item_RedBuff"
+                            ],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Cassiopeia",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Elise",
+                            "itemNames": [
+                                "TFT_Item_ThiefsGloves",
+                                "TFT_Item_GuardianAngel",
+                                "TFT_Item_Deathblade"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Silco",
+                            "itemNames": [
+                                "TFT_Item_SpearOfShojin",
+                                "TFT_Item_SpearOfShojin",
+                                "TFT_Item_Leviathan"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Garen",
+                            "itemNames": [
+                                "TFT_Item_RedBuff",
+                                "TFT_Item_NightHarvester",
+                                "TFT_Item_Artifact_LightshieldCrest"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 3
+                        },
+                        {
+                            "character_id": "TFT13_DrMundo",
+                            "itemNames": [
+                                "TFT_Item_GargoyleStoneplate",
+                                "TFT13_Item_CabalEmblemItem",
+                                "TFT_Item_DragonsClaw"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Mordekaiser",
+                            "itemNames": [
+                                "TFT4_Item_OrnnZhonyasParadox",
+                                "TFT_Item_JeweledGauntlet",
+                                "TFT_Item_Bloodthirster"
+                            ],
+                            "name": "",
+                            "rarity": 6,
+                            "tier": 1
+                        },
+                        {
+                            "character_id": "TFT13_Viktor",
+                            "itemNames": [
+                                "TFT13_Item_CabalEmblemItem"
+                            ],
+                            "name": "",
+                            "rarity": 8,
+                            "tier": 1
+                        },
+                        {
+                            "character_id": "TFT13_Sion",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 9,
+                            "tier": 3
+                        }
+                    ],
+                    "win": true
+                },
+                {
+                    "companion": {
+                        "content_ID": "371069f3-259c-49e7-93fa-6489156953f8",
+                        "item_ID": 67001,
+                        "skin_ID": 1,
+                        "species": "PetPoroFluft"
+                    },
+                    "gold_left": 1,
+                    "last_round": 37,
+                    "level": 10,
+                    "missions": {
+                        "PlayerScore2": 230
+                    },
+                    "partner_group_id": 4,
+                    "placement": 1,
+                    "players_eliminated": 3,
+                    "puuid": "Ejvo-XdGUKH0NfNkilgeivTcCdM5hbi5KT3pckBLfWTc4eFbe-pUGaJ-jeWyO3tb0ILR0kj3B3qG7w",
+                    "riotIdGameName": "WillScissor4Tank",
+                    "riotIdTagline": "NA1",
+                    "time_eliminated": 2284.392578125,
+                    "total_damage_to_players": 78,
+                    "traits": [
+                        {
+                            "name": "TFT13_Ambusher",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Bruiser",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Challenger",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Crime",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_HighRoller",
+                            "num_units": 1,
+                            "style": 3,
+                            "tier_current": 1,
+                            "tier_total": 1
+                        },
+                        {
+                            "name": "TFT13_JunkerKing",
+                            "num_units": 1,
+                            "style": 3,
+                            "tier_current": 1,
+                            "tier_total": 1
+                        },
+                        {
+                            "name": "TFT13_MachineHerald",
+                            "num_units": 1,
+                            "style": 3,
+                            "tier_current": 1,
+                            "tier_total": 1
+                        },
+                        {
+                            "name": "TFT13_Pugilist",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Scrap",
+                            "num_units": 1,
+                            "style": 0,
+                            "tier_current": 0,
+                            "tier_total": 4
+                        },
+                        {
+                            "name": "TFT13_Sniper",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        },
+                        {
+                            "name": "TFT13_Squad",
+                            "num_units": 8,
+                            "style": 4,
+                            "tier_current": 4,
+                            "tier_total": 5
+                        },
+                        {
+                            "name": "TFT13_Titan",
+                            "num_units": 2,
+                            "style": 1,
+                            "tier_current": 1,
+                            "tier_total": 3
+                        }
+                    ],
+                    "units": [
+                        {
+                            "character_id": "TFT13_Fish",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 0,
+                            "tier": 3
+                        },
+                        {
+                            "character_id": "TFT13_Shooter",
+                            "itemNames": [
+                                "TFT_Item_GuinsoosRageblade",
+                                "TFT_Item_RunaansHurricane",
+                                "TFT_Item_RapidFireCannon"
+                            ],
+                            "name": "",
+                            "rarity": 0,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Camille",
+                            "itemNames": [
+                                "TFT4_Item_OrnnRanduinsSanctum"
+                            ],
+                            "name": "",
+                            "rarity": 1,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Beardy",
+                            "itemNames": [
+                                "TFT_Item_RedBuff",
+                                "TFT_Item_SpectralGauntlet",
+                                "TFT_Item_Redemption"
+                            ],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_TwistedFate",
+                            "itemNames": [
+                                "TFT_Item_ThiefsGloves",
+                                "TFT_Item_BrambleVest",
+                                "TFT_Item_StatikkShiv"
+                            ],
+                            "name": "",
+                            "rarity": 2,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Vi",
+                            "itemNames": [
+                                "TFT4_Item_OrnnInfinityForce",
+                                "TFT4_Item_OrnnDeathsDefiance",
+                                "TFT_Item_SteraksGage"
+                            ],
+                            "name": "",
+                            "rarity": 4,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Lieutenant",
+                            "itemNames": [
+                                "TFT_Item_TitansResolve",
+                                "TFT13_Item_SquadEmblemItem",
+                                "TFT_Item_UnstableConcoction"
+                            ],
+                            "name": "",
+                            "rarity": 6,
+                            "tier": 1
+                        },
+                        {
+                            "character_id": "TFT13_Rumble",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 6,
+                            "tier": 1
+                        },
+                        {
+                            "character_id": "TFT13_Caitlyn",
+                            "itemNames": [
+                                "TFT_Item_InfinityEdge",
+                                "TFT_Item_BlueBuff",
+                                "TFT_Item_MadredsBloodrazor"
+                            ],
+                            "name": "",
+                            "rarity": 6,
+                            "tier": 2
+                        },
+                        {
+                            "character_id": "TFT13_Viktor",
+                            "itemNames": [],
+                            "name": "",
+                            "rarity": 8,
+                            "tier": 1
+                        }
+                    ],
+                    "win": true
+                }
+            ],
+            "queueId": 1160,
+            "queue_id": 1160,
+            "tft_game_type": "pairs",
+            "tft_set_core_name": "TFTSet13",
+            "tft_set_number": 13
+        }
+    }
+]
