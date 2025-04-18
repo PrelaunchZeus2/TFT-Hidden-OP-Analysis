@@ -1,4 +1,4 @@
-# Hidden OP Analysis
+# Hidden OP Mini-Analysis
 
 A data-driven exploration of underappreciated but overperforming strategies in Team FIght Tactics. This project uses the Riot API to collect match data and analyze trends that may reveal "hiddenly overpowered" compositions, items, or augments—strategies that are less popular but produce strong results.
 
