@@ -99,14 +99,43 @@ def coreLoop(puuid: str, layers: int = 20):
     return match_data_list
 
 def extract_information(match_jsons):
+    """
+    Extracts player information from match JSON objects and flattens nested data for CSV compatibility.
+    """
+    extracted_data = []
+
     for match in match_jsons:
-        match_id = None
-        
-        
+        match_id = match.get("metadata", {}).get("match_id", "Unknown")
+        participants = match.get("info", {}).get("participants", [])
+
+        for player in participants:
+            player_data = {
+                "match_id": match_id,
+                "puuid": player.get("puuid", "Unknown"),
+                "name": f"{player.get('riotIdGameName', 'Unknown')}#{player.get('riotIdTagline', 'Unknown')}",
+                "placement": player.get("placement", "Unknown"),
+                "total_damage_to_players": player.get("total_damage_to_players", 0),
+                "players_eliminated": player.get("players_eliminated", 0),
+                "traits": "; ".join(
+                    [f"{trait.get('name', 'Unknown')}({trait.get('num_units', 0)})" for trait in player.get("traits", [])]
+                ),
+                "units": "; ".join(
+                    [
+                        f"{unit.get('character_id', 'Unknown')}[tier:{unit.get('tier', 0)}, items:{','.join(unit.get('itemNames', []))}]"
+                        for unit in player.get("units", [])
+                    ]
+                ),
+            }
+            extracted_data.append(player_data)
+
+    return pl.DataFrame(extracted_data)
+
 def main():
     correct_name = False
     while not correct_name:
-        starting_player = input("Please enter the account name and tagline of the player to start with, (format: Name#Tagline):\n")
+        starting_player = input("Please enter the account name and tagline of the player to start with, (format: Name#Tagline) [Default: DefaultName#1234]:\n")
+        if not starting_player.strip():  # If input is empty, use the default value
+            starting_player = "LunaLush#Heyyy"
         try:
             SummonerName, tagline = starting_player.split("#")
             correct_name = True  # Exit the loop if the input is valid
@@ -131,7 +160,7 @@ def main():
 
     data_frame = extract_information(match_jsons)
     
-    data_frame.write_csv("../Data/match_data.csv")
+    data_frame.write_csv("Data\match_data.csv")
     
     
     
