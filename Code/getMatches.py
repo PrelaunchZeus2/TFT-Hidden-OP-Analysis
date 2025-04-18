@@ -43,7 +43,7 @@ def getPuuid(name: str, tagline: str):
     if request.status_code == 200:
         return json.loads(request.content)["puuid"]
     elif request.status_code == 429:
-        print("Rate limit exceeded while getting account puuid. Waiting...")
+        print("\nRate limit exceeded while getting account puuid. Waiting...")
         for remaining in range(SLEEP_TIME, 0, -1):
             print(f"Retrying in {remaining} seconds...", end="\r")
             time.sleep(1)
@@ -61,7 +61,7 @@ def getTFTMatches(puuid: str, start: int = 0, count: int = 20):
     if request.status_code == 200:
         return json.loads(request.content)
     elif request.status_code == 429:
-        print("Rate limit exceeded while getting match list. Waiting...")
+        print("\nRate limit exceeded while getting match list. Waiting...")
         for remaining in range(SLEEP_TIME, 0, -1):
             print(f"Retrying in {remaining} seconds...", end="\r")
             time.sleep(1)
@@ -79,7 +79,7 @@ def getMatchData(match_id: str):
     if request.status_code == 200:
         return json.loads(request.content)
     elif request.status_code == 429:
-        print("Rate limit exceeded while getting match data. Waiting...")
+        print("\nRate limit exceeded while getting match data. Waiting...")
         for remaining in range(SLEEP_TIME, 0, -1):
             print(f"Retrying in {remaining} seconds...", end="\r")
             time.sleep(1)
