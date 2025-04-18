@@ -1,0 +1,4 @@
+/.venv/
+api_key.txt
+.DS_Store
+code/TFTRoundDataScraper/SampleTFTAPP
