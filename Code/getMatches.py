@@ -1,5 +1,28 @@
+"""
+getMatches.py
+
+Author: PrelaunchZeus2
+
+This script retrieves TFT Match data from the Riot Games API.
+It starts with a specified player's account and iteratively retireves matches for random players from those matches.
+It gets the first 20 matches for the starting player randomly selects a match and then randomly selects a player from that match and repeats the process.
+
+Dependencies:
+- requests
+- polars
+- tqdm
+- a valid API key from Riot Games
+
+Usage:
+run the script and follow the prompts!
+"""
+
+
+
 import requests, os, json, random, time, polars as pl
-SLEEP_TIME = 15
+from tqdm import tqdm  # Add tqdm for progress bar
+
+SLEEP_TIME = 120 #only x amount of requests per 2 muinutes
 
 try:
     with open("API_KEY.txt", "r") as f:
@@ -73,28 +96,30 @@ def coreLoop(puuid: str, layers: int = 20):
     match_data_list = []
     loop_puuid = puuid
 
-    for _ in range(layers):
-        # Get the last 20 matches for the current player
-        matches = getTFTMatches(loop_puuid, start=0, count=20)
-        if not matches:
-            print("No matches found or an error occurred.")
-            continue
+    # Initialize the progress bar
+    with tqdm(total=layers, desc="Progress", unit="layer") as pbar:
+        for _ in range(layers):
+            # Get the last 20 matches for the current player
+            matches = getTFTMatches(loop_puuid, start=0, count=20)
+            if not matches:
+                print("No matches found or an error occurred.")
+                continue
 
-        # Retrieve and append match data for each match
-        for match_id in matches:
-            match_data = getMatchData(match_id)
-            if match_data:
-                match_data_list.append(match_data)
+            # Retrieve and append match data for each match
+            for match_id in matches:
+                match_data = getMatchData(match_id)
+                if match_data:
+                    match_data_list.append(match_data)
 
-        # Select a random match and a random participant from that match
-        random_match = random.choice(match_data_list)
-        participants = random_match.get("metadata", {}).get("participants", [])
-        if not participants:
-            print("No participants found in the match.")
-            break
+            # Select a random match and a random participant from that match
+            random_match = random.choice(match_data_list)
+            participants = random_match.get("metadata", {}).get("participants", [])
+            if not participants:
+                print("No participants found in the match.")
+                break
 
-        loop_puuid = random.choice(participants).strip()
-        print("Layers left:", layers - _ - 1, end = "\r")
+            loop_puuid = random.choice(participants).strip()
+            pbar.update(1)  # Update the progress bar
 
     return match_data_list
 
@@ -122,8 +147,7 @@ def extract_information(match_jsons):
                 "units": "; ".join(
                     [
                         f"{unit.get('character_id', 'Unknown')}[tier:{unit.get('tier', 0)}, items:{','.join(unit.get('itemNames', []))}]"
-                        for unit in player.get("units", [])
-                    ]
+                        for unit in player.get("units", [])]
                 ),
             }
             extracted_data.append(player_data)
@@ -133,7 +157,7 @@ def extract_information(match_jsons):
 def main():
     correct_name = False
     while not correct_name:
-        starting_player = input("Please enter the account name and tagline of the player to start with, (format: Name#Tagline) [Default: DefaultName#1234]:\n")
+        starting_player = input("Please enter the account name and tagline of the player to start with, (format: Name#Tagline):\n")
         if not starting_player.strip():  # If input is empty, use the default value
             starting_player = "LunaLush#Heyyy"
         try:
