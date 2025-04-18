@@ -1,5 +1,5 @@
 import requests, os, json, random, time, polars as pl
-SLEEP_TIME = 120
+SLEEP_TIME = 15
 
 try:
     with open("API_KEY.txt", "r") as f:
