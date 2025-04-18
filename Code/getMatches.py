@@ -6,6 +6,7 @@ Author: PrelaunchZeus2
 This script retrieves TFT Match data from the Riot Games API.
 It starts with a specified player's account and iteratively retireves matches for random players from those matches.
 It gets the first 20 matches for the starting player randomly selects a match and then randomly selects a player from that match and repeats the process.
+In essence, it creates a match list of 20 X layers matches. Matches may NOT be unique.
 
 Dependencies:
 - requests
