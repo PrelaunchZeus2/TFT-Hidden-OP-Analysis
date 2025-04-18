@@ -132,13 +132,20 @@ def extract_information(match_jsons):
 
     for match in match_jsons:
         match_id = match.get("metadata", {}).get("match_id", "Unknown")
+        queue_id = match.get("info", {}).get("queue_id", "Unknown")
+        tft_set_number = match.get("info", {}).get("tft_set_number", "Unknown")
+        game_version = match.get("info", {}).get("game_version", "Unknown")
         participants = match.get("info", {}).get("participants", [])
 
         for player in participants:
             player_data = {
                 "match_id": match_id,
-                "puuid": player.get("puuid", "Unknown"),
+                "queue_id": queue_id,
+                "tft_set_number": tft_set_number,
+                "game_version": game_version,
+                "player_puuid": player.get("puuid", "Unknown"),
                 "name": f"{player.get('riotIdGameName', 'Unknown')}#{player.get('riotIdTagline', 'Unknown')}",
+                "partner_group_id": player.get("partner_group_id", "Unknown"),
                 "placement": player.get("placement", "Unknown"),
                 "total_damage_to_players": player.get("total_damage_to_players", 0),
                 "players_eliminated": player.get("players_eliminated", 0),
@@ -186,6 +193,9 @@ def main():
     data_frame = extract_information(match_jsons)
     
     data_frame.write_csv("Data\match_data.csv")
+    
+    print("Data Extraction Complete for {} layers.".format(layers))
+    print("Data saved to match_data.csv.") 
     
     
     
