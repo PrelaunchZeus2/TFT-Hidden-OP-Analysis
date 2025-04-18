@@ -97,7 +97,7 @@ def coreLoop(puuid: str, layers: int = 20):
     loop_puuid = puuid
 
     # Initialize the progress bar
-    with tqdm(total=layers, desc="Progress", unit="layer") as pbar:
+    with tqdm(total=layers, desc="Getting Matches:", unit="layer") as pbar:
         for _ in range(layers):
             # Get the last 20 matches for the current player
             matches = getTFTMatches(loop_puuid, start=0, count=20)
