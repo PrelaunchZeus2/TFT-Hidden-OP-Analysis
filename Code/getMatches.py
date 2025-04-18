@@ -159,7 +159,7 @@ def main():
     while not correct_name:
         starting_player = input("Please enter the account name and tagline of the player to start with, (format: Name#Tagline):\n")
         if not starting_player.strip():  # If input is empty, use the default value
-            starting_player = "LunaLush#Heyyy"
+            starting_player = "LunaLush#Heyyy" #use luna as a default starting point
         try:
             SummonerName, tagline = starting_player.split("#")
             correct_name = True  # Exit the loop if the input is valid
